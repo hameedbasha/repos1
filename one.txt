@@ -1,0 +1,23 @@
+Best Answer:  A file can be created using the edit command or the copy con command. Below are examples with each command on how to create a file called myfile.txt. 
+
+With the edit command to create a file type the below command at the prompt. 
+
+edit myfile.txt <press enter> 
+
+If available, this should open the edit editor (generally a blue screen); once you have typed the information for the file myfile.txt, click File and choose exit. If you do not have a mouse, please see our edit page. 
+
+When clicking exit, the computer will prompt you if you wish to save the file, click Yes and the file will be created. 
+
+With copy con command to create a file type the below command at the prompt. 
+
+copy con myfile.txt <press enter> 
+
+When typing the above you will return down one line to a blank line. Create the file line by line. Once you are ready to create the file press enter to get to a blank line and then press and hold CTRL and press Z then let go of both buttons. This will return a ^Z. Once this has been entered press enter to save and exit the file.
+
+
+
+
+git remote add origin url  --to add the local to remote 
+
+git push origin master  -- to push the changes to remote repo
+

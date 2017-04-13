@@ -1,0 +1,7 @@
+devlopers write code in java which is source for us...
+
+the source files are pushed into version control system suchas SVN amd Git when ever there is a change in the source code in the repository the source code will be complied into class files and built into jar/war files using buildtools such as ant/maven and the process s automated using continuos integration tools like jenkins
+
+usually the compilation and building of jar/war is accomplished by build tools like ANT/Maven the scrpits that we write will be linked to CI tools so that automatically the build will be triggerd.
+
+the built artifacts are moved to sonatype nexus and when ever we need to deploy the artifacts to the clients or to any other environments to smoketest the code we will use webservers like tomcat 
